@@ -1,0 +1,183 @@
+/*Main Page*/
+* {
+  background-color: white;
+}
+
+h1 {
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid #969696;
+  padding: 5px;
+  width: 50%;
+  margin: auto;
+  font-family: "Calibri";
+  background-color: #4CA64C;
+  color: white;
+}
+
+.categories {
+  margin-left: 375px;
+  width: 50%;
+  text-align: center;
+  list-style-type: none;
+  padding: 2px;
+  border: 1px solid #969696;
+  padding: auto;
+  background-color: #4CA64C;
+}
+
+img {
+  width: 100%;
+}
+
+#salesHeader {
+  text-align: center;
+  border: 1px solid #969696;
+  padding: 5px;
+  width: 20%;
+  margin: auto;
+  font-family: "Calibri";
+  background-color: #4CA64C;
+  color: white;
+}
+
+/*navigation bar*/
+
+#header-image {
+  display: block;
+  width: 47.5%;
+  margin: auto;
+  border: 3px solid grey;
+}
+
+/*Item Tables*/
+table, th {
+  margin-left:  auto;
+  margin-right: auto;
+  border: 1px solid black;
+  padding: 10px;
+  font-family: "Calibri";
+}
+ 
+th {
+  color: white;
+  border-radius: 3px;
+  background-color: #4CA64C;
+  margin-left: 1000px;
+}
+ 
+.addCart {
+  width: 150px;
+}
+
+.removeCart {
+  width: 30px;
+  height: 30px;
+  padding-right: : 5px;
+}
+
+.cartCol {
+  text-align: right;
+}
+
+.cartTotal {
+  font-weight: bold;
+}
+
+.item {
+  width: 250px;
+}
+ 
+.item td {
+  text-align: left;
+}
+ 
+.price {
+  font-weight: bold;
+  text-align: right;
+}
+ 
+.quantity {
+  width: 100px;
+  text-align: center;
+}
+
+/*slider alignnments*/
+.sliders {
+  margin-left: 23.5%;
+}
+
+/*information form for the checkout screen*/
+.form {
+  text-align: center; 
+}
+
+form {
+  display: inline-block;
+  text-align: center;
+}
+
+#totalPrice {
+  margin-top: 300px;
+  margin-left: 20%;
+}
+
+.checkoutButton, .clearCartButton {
+  text-align: center;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.info1 {
+  float: left;
+}
+
+.info2 {
+  padding-left: 20px; float: left;
+}
+
+/*footer*/
+footer {
+  color: black;
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+/*random formatting issues, such as cell positioning*/
+.hiddenCell {
+  visibility: hidden;
+}
+
+#banner1 {
+  width: 200px;
+  height: 1000px;
+  float: left;
+  margin-left: 70px;
+}
+
+#banner2 {
+  width: 200px;
+  height: 1000px;
+  float: right;
+  margin-right: 70px;
+}
+
+#homeImage {
+  width: 500px;
+  height: 500px;
+  margin-left: 200px;
+}

@@ -1,0 +1,50 @@
+01,bananas,fruits,Dole,classic berry,$2.79,pics\01.jpg
+02,apples,fruits,Ranier,crunchy sweet snack,$1.79,pics\02.jpg
+03,oranges,fruits,Sequoia,orange coloured fruit,$2.99,pics\03.jpg
+04,grapes,fruits,Vino Farms,juicy purple snack,$6.99,pics\04.jpg
+05,pears,fruits,Gebbers Farms,succlent tasting fruit,$3.99,pics\05.jpg
+06,lemons,fruits,Tropicana,sour stuff,$1.99,pics\06.jpg
+07,garlic bread,bakery,Pepperidge Farm,the best in town,$100.00,pics\07.jpg
+08,white bread,bakery,Wonder,pretty good bread,$4.99,pics\08.jpg
+09,whole wheat bread,bakery,Wonder,healthy mediocre bread,$3.99,pics\09.jpg
+10,croissants,bakery,Hazel-Dazel,french stuff,$2.99,pics\10.jpg
+11,raisin bread,bakery,Sun-Maid,disgusting,$0.50,pics\11.jpg
+12,pita bread,bakery,Schwebel's,alright,$1.99,pics\12.jpg
+13,drinkable yogurt,dairy,Yoplait,healthy refreshment,$0.99,pics\13.jpg
+14,yogurt,dairy,Activa,healthy snack,$3.99,pics\14.jpg
+15,milk,dairy,Neilson,cow juice,$5.99,pics\15.jpg
+16,marble cheese,dairy,Black Diamond,solidified cheese,$4.99,pics\16.jpg
+17,butter,dairy,Country Crock,standard bread spread,$20.00,pics\17.jpg
+18,ice cream,dairy,Dairy Queen,break up remedy,$5.00,pics\18.jpg
+19,whipped cream,dairy,Kraft,liquid diabeetus,$2.99,pics\19.jpg
+20,sliced ham,meat,Hillshire farm,yummy sliced pig yo,$5.99,pics\20.jpg
+21,beef jerky,meat,Krave Beef Jerky,overpriced goodness,$7.99,pics\21.jpg
+22,rotisserie chicken,meat,CFC,better than Costco,$11.99,pics\22.jpg
+23,turkey,meat,Maple Leaf Foods,not the country,$22.99,pics\23.jpg
+24,chicken drumsticks,meat,Great Value,tasty dinner dish,$7.99,pics\24.jpg
+25,chicken nuggets,meat,Banquet,crisp tender filling snack,$5.99,pics\25.jpg
+26,chips,snacks,Frito Lays,crunchy salty snack,$3.99,pics\26.jpg
+27,pop drink,snacks,Coca Cola,fizzy soft drink,$6.99,pics\27.jpg
+28,pizza,snacks,Delissio,appropriate for any meal of the day,$8.99,pics\28.jpg
+29,popcorn,snacks,Orville,crunchy snack for movie watching,$6.99,pics\29.jpg
+30,granola bars,snacks,Nature Valley,nutty goodness,$5.99,pics\30.jpg
+31,chocolate,snacks,Hershey's,sweet tasting snack,$1.99,pics\31.jpg
+32,cookies,snacks,Oreos,crunchy snack to dip into milk,$2.99,pics\32.jpg
+33,pretzels,snacks,Rold Gold,salty weird shaped snack,$4.99,pics\33.jpg
+34,cashews,snacks,Planters,nuts with a satisfying crunch,$7.99,pics\34.jpg
+35,spinach,vegetables,Dole,healthy and tasty,$4.99,pics\35.jpg
+36,broccoli,vegetables,Green Isle,mini green trees,$3.99,pics\36.jpg
+37,green peas,vegetables,Le Sueur,small pods filled with goodness,$5.99,pics\37.jpg
+38,baby carrots,vegetables,Bolthouse,orange crunchy goodness,$2.99,pics\38.jpg
+39,kimchi,vegetables,Tobagi,spicy preserved cabbage,$6.99,pics\39.jpg
+40,shampoo,personal care,Head and Shoulders,soap for the hair,$4.99,pics\40.jpg
+41,conditioner,personal care,Head and Shoulders,hair softener,$4.99,pics\41.jpg
+42,body soap,personal care,Dove,shampoo for the body,$4.99,pics\42.jpg
+43,toothpaste,personal care,Sensodyne,soap for the teeth,$2.99,pics\43.jpg
+44,toilet paper,personal care,Charmin,towel for the butt,$12.99,pics\44.jpg
+45,bleach,cleaners,Windex,simple and basic cleaner,$5.99,pics\45.jpg
+46,ammonia,cleaners,Clorox,perfect to wash with bleach,$3.99,pics\46.jpg
+47,magic eraser,cleaners,Mr.Clean,very strong scrubber,$5.99,pics\47.jpg
+48,paper towels,cleaners,Bounty,disposable cleaner,$6.99,pics\48.jpg
+49,laundry detergent,cleaners,Tide,soap for the clothes,$7.99,pics\49.jpg
+50,dish soap,cleaners,Dawn,soap for the dish,$3.99,pics\50.jpg

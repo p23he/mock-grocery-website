@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cart</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="javascript.js"></script>
+	</head>
+
+	<header>
+		<h1>Frank's Groceries</h1><br>
+		<h1>SHOPPING CART</h1>
+	</header>
+
+	<img id="banner1" src="pics/banner1.jpg">
+	<img id="banner2" src="pics/banner2.jpg">
+
+	<body onload="generateCart()">
+		<ul class="categories">
+			<div class="dropdown_content">
+				<li><a href="home.html">Home</a></li>
+		   		<li><a href="website.html">Browse Items</a></li>
+		   		<li><a href="cart.html">Shopping Cart</a></li>
+			</div>
+		</ul>
+		<br><br><br>
+		<table>
+			<tr>
+				<th width="490">Item</th>
+				<th width="80">Price</th>
+				<th width="80">Quantity</th>
+				<th width="80">Subtotal</th>
+			</tr>
+		</table>
+		<table id="table1">
+		</table>
+		<br>
+
+		<div class="clearCartButton"><button class="button" onclick="clearCart()">Clear Cart</button></div><br>
+		<div class="checkoutButton"><button class="button"  onclick="location.href='checkout.html';">OK, send me to checkout!</button></div>
+	</body>
+
+	<footer class="footer">
+		<i>&#169; Frank's Groceries 2017. Created By Richard Duan and Peter He</i>
+	</footer>
+</html>

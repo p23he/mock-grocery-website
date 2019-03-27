@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Frank's Groceries</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="javascript.js"></script>
+	</head>
+
+	<header>
+		<h1>Frank's Groceries</h1><br>
+		<h1>BROWSE ITEMS</h1>
+	</header>
+
+	<img id="banner1" src="pics/banner1.jpg">
+	<img id="banner2" src="pics/banner2.jpg">
+
+	<body onload="getText(); selectCat(); selectComp();">
+		<ul class="categories">
+			<div class="dropdown_content"><!--navigation bar-->
+				<li><a href="home.html">Home</a></li>
+		   		<li><a href="website.html">Browse Items</a></li>
+		   		<li><a href="cart.html">Shopping Cart</a></li>
+			</div>
+		</ul>
+		<table>
+			<tr>
+				<td width="200">
+					<select id="category" onchange="sortCat(this.value)">
+						<option value="default">--All Categories--</option>
+					</select>
+				</td>
+				<td width="200">
+					<select id="company" onchange="sortComp(this.value)">
+						<option value="default">--All Companies--</option>
+					</select>
+				</td>
+				<td width="200">
+					<select onchange="sortAlpha(this.value)">
+						<option value="0">--Sort Alphabetically--</option>
+						<option value="1">Category A-Z</option>
+						<option value="2">Category Z-A</option>
+						<option value="3">Company A-Z</option>
+						<option value="4">Company Z-A</option>
+						<option value="5">Item A-Z</option>
+						<option value="6">Item Z-A</option>
+					</select>
+				</td>
+				<td width="200">
+					<input type="text" id="searchBar" onkeyup="search()" placeholder="Search for names...">
+				</td>
+			</tr>
+		</table>
+		<table>
+			<th width="500">Item</th>
+			<th width="100">Price</th>
+			<th width="150">Quantity</th>
+		</table>
+		<table id="table1"></table>
+	</body>
+
+	<footer class="footer">
+		<i>&#169; Frank's Groceries 2017. Created By Richard Duan and Peter He</i>
+	</footer>
+</html>

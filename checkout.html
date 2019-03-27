@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Frank's Groceries</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="javascript.js"></script>
+	</head>
+
+	<header>
+		<h1>Frank's Groceries</h1>
+	</header>
+
+	<img id="banner1" src="pics/banner1.jpg">
+	<img id="banner2" src="pics/banner2.jpg">
+
+	<body onload="checkoutTotal()">
+		<ul class="categories">
+			<div class="dropdown_content">
+				<li><a href="home.html">Home</a></li>
+		   		<li><a href="website.html">Browse Items</a></li>
+		   		<li><a href="cart.html">Shopping Cart</a></li>
+			</div>
+		</ul>
+
+		<div class="form">
+			<form id="form">
+				<div class="info1">
+					<h5>First Name</h5>
+					<input type="text" id="firstName">
+					<h5>Last Name</h5>
+					<input type="text" id="lastName">
+					<h5>E-mail Address</h5>
+					<input type="text" id="email">
+				</div>
+				<div class="info2">
+					<h5>Address</h5>
+					<input type="text" id="address">
+					<h5>City</h5>
+					<input type="text" id="city">
+					<h5>Province</h5>
+					<select>
+						<option></option>
+						<option>Alberta</option>
+						<option>British Columbia</option>
+						<option>Manitoba</option>
+						<option>New Brunswick/option>
+						<option>Newfoundland</option>
+						<option>Nova Scotia</option>
+						<option>Ontario</option>
+						<option>Prince Edward Island</option>
+						<option>Quebec</option>
+						<option>Saskatchewan</option>
+						<option>Northwest Territories</option>
+						<option>Nunavut</option>
+						<option>Yukon Territories</option>
+					</select>
+				</div>
+			</form>
+		</div><br>
+		<p1 id="totalPrice">Total Price (including 13% HST):</p1>
+		<div class="checkoutButton"><button onclick="confirmCheckout()">Confirm</button></div>
+	</body>
+
+	<footer>
+		<i>&#169; Frank's Groceries 2017. Created By Richard Duan and Peter He</i>
+	</footer>
+</html>
